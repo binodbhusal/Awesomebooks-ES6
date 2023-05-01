@@ -1,7 +1,5 @@
-// eslint-disable-next-line import/no-unresolved
-import { DateTime } from '../../../../node_modules/luxon/src/luxon.js';
-import { btnsClick, listSection } from './modules/eventlisteners.js';
-import { hideSection } from './modules/otherfunction.js';
+import { DateTime } from '../../node_modules/luxon/src/luxon.js';
+import { btnsClick, listSection, hideSection } from './modules/eventlisteners.js';
 import { BookList } from './modules/bookclass.js';
 
 btnsClick();

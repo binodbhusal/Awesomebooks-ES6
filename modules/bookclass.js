@@ -1,5 +1,4 @@
-import { hideSection } from './otherfunction.js';
-import { listSection } from './eventlisteners.js';
+import { hideSection, listSection } from './eventlisteners.js';
 
 export const title = document.getElementById('title');
 export const author = document.getElementById('author');

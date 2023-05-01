@@ -1,9 +1,13 @@
-/* eslint-disable import/no-cycle */
-import { hideSection } from './otherfunction.js';
-
 export const listSection = document.getElementById('list-section');
 export const bookSection = document.getElementById('book-section');
 export const contactSection = document.getElementById('contact-section');
+
+export const hideSection = () => {
+  listSection.classList.add('hidden');
+  bookSection.classList.add('hidden');
+  contactSection.classList.add('hidden');
+};
+
 export const btnsClick = () => {
   const listBtn = document.getElementById('list-link');
   const bookBtn = document.getElementById('book-link');
