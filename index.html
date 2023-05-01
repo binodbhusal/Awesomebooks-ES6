@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Books ES&</title>
+    <title>Awesome Books- Es6</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <script type="module" src="index.js"></script>
+    <nav>
+        <h1>Awesome Books</h1>
+        <ul id="menu">
+            <li id="list-link" >
+                <a href="#list-section">List</a>
+            </li>
+            <li id="book-link">
+                <a href="#book-section">Add Book</a>
+            </li>
+            <li id="contact-link">
+                <a href="#contact-section">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="list-section">
+    <table id="tableList"> <th colspan="3"></th>
+    </table></section>
+    <!-- <ul id="booklist">
+
+    </ul> -->
+
+    <section id="book-section">
+    <h2>Awesome Books</h2>
+    <span id="error"></span>
+
+    <form id="form">
+    <input type="text" id="title" placeholder="Title">
+    <input type="text" id="author" placeholder="Author">
+    <button type="button" id="btnAdd">Add Book ! </button>
+</form></section>
+<section id="contact-section">
+    <h4>Contact information</h4>
+    <h5>Do you have any questions or you just want to say Hello?
+        You can just reach out to us!</h5>
+    <ul>
+        <li>Our email: mail@mail.com</li>
+        <li>Our mobile: 00435 2217 2248</li>
+        <li>Our address: Streetname 22, 73221 City, Wonderland</li>
+
+    </ul>
+</section>
+<footer>
+    Copyrights©All rights reserved 2023
+</footer>
+<script type ="module" src="index.js"></script>
 </body>
 </html>
