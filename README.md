@@ -23,9 +23,9 @@
 
 
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
-**[Portfolio]** The Awesome Books project is a web application that allows users to keep track of the books they have read or want to read. Users can add books to their list by providing the book's title and author. The Awesome Books project was built using HTML, CSS, and JavaScript. The project also employs object-oriented programming concepts to create and manipulate book objects.Overall, the Awesome Books project is a simple and practical web application that book lovers can use to keep track of their reading list.
+**[Awesome Books]** The Awesome Books project is a web application that allows users to keep track of the books they have read or want to read. Users can add books to their list by providing the book's title and author. The Awesome Books project was built using HTML, CSS, and JavaScript. The project also employs object-oriented programming concepts to create and manipulate book objects.Overall, the Awesome Books project is a simple and practical web application that book lovers can use to keep track of their reading list.
 
 ## 🛠 HTML and CSS <a name="built-with"></a>
 

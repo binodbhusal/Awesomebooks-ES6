@@ -1,4 +1,4 @@
-import { DateTime } from '../../node_modules/luxon/src/luxon.js';
+import { DateTime } from './modules/luxon/src/luxon.js';
 import { btnsClick, listSection, hideSection } from './modules/eventlisteners.js';
 import { BookList } from './modules/bookclass.js';
 
@@ -12,8 +12,13 @@ btnAdd.addEventListener('click', () => {
 });
 const DateTime1 = () => {
   const datetimeOutput = document.getElementById('datetime-output');
-  const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-  datetimeOutput.textContent = now;
+
+  const updateDateTime = () => {
+    const now = DateTime.now().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+    datetimeOutput.textContent = now;
+  };
+  updateDateTime();
+  setInterval(updateDateTime, 1000);
 };
 const loadPage = () => {
   hideSection();

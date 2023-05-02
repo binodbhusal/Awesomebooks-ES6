@@ -52,7 +52,7 @@ export class BookList {
     }
 
     removeBook = (row) => {
-      const bookIndex = row.rowIndex - 1;
+      const bookIndex = row.rowIndex;
       this.myData.splice(bookIndex, 1);
       this.setStorage();
       this.displayBooks();
