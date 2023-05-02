@@ -19,8 +19,8 @@ export class BookList {
     addBook = () => {
       const newBook = { title: title.value, author: author.value };
       const authorRegex = /^[a-zA-Z\s]*$/;
-      // eslint-disable-next-line max-len
-      const existingBook = this.myData.some((book) => book.title === newBook.title && book.author === newBook.author);
+      const existingBook = this.myData.some((book) => book.title === newBook.title
+      && book.author === newBook.author);
       if (existingBook) {
         error.innerHTML = 'Duplicate Value ! already exist';
         error.style.visibility = 'visible';
